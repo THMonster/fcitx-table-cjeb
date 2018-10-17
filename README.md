@@ -1,5 +1,5 @@
 # fcitx-table-cjeb
 移植自极点纯净两笔码表。
-纯净两笔有重码少，笔画规范等优点，故移植至fcitx平台替掉不太好用的fcitx-table-erbi。
+纯净两笔有重码少，笔画规范等优点，故移植至fcitx平台。
 # 使用
-建议先安装fcitx-table-erbi,然后使用本码表替换掉$HOME/.config/fcitx/table/或/usr/share/fcitx/table/下的erbi.mb即可。
+将.conf与.mb文件一并复制到`$HOME/.config/fcitx/table/`后重启fcitx并应用“二笔”输入法选项。
